@@ -1,11 +1,1 @@
-# Hacking-Fuckin-Week
-o Gruppo Login:
--Andrea
--Luca
--Dario
--Andrei
-
-o Gruppo Register:
--Elga
--Giorgia
--Salvo
+Inizialmente abbiamo previsto una suddivisione in due gruppi, ma vedendo che c'erano delle difficoltà tecniche abbiamo deciso di unire le forze e lavorare sui vari task senza una particolare distinzione, tutti insieme in live coding su discord e live share
