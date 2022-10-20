@@ -13,6 +13,72 @@
 </head>
 
 <body>
+  <section class="container">
+        <div class="title">
+          <h1>LOGIN AND REGISTER</h1>
+        </div>
+        <div class="container-button-login-register">
+        <div class="form-wrapper">
+          <div class="buttons">
+            <button type="button" id="upper-loginbtn" class="login-btn">Login</button>
+            <button type="button" id="upper-registerbtn" class="signup-btn">Sign up</button>
+          </div>
+
+
+            <form method="post" onsubmit="" class="register" id="signUp">
+              <div class="reg-wrap">
+                <div class="first-row-reg">
+                  <div class="inputs">
+                    <input type="text" id="name" required placeholder="Name" class="input-name" required/>
+                    <i class="fa-regular fa-user"></i>
+                  </div>
+              <div class="inputs">
+                    <input type="number" id="age" required placeholder="Age" class="input-age" required />
+                    <i class="fa-solid fa-calendar-days"></i>
+                  </div>
+                </div>
+
+                <div class="second-row-reg">
+                  <div class="inputs">
+                    <input type="email" id="email" required placeholder="Email" class="input-email-reg" required />
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+
+                  <div class="inputs">
+                    <input type="password" id="password" class="input-pass-reg" required placeholder="Password" />
+                    <i class="fa-solid fa-unlock-keyhole"></i>
+                  </div>
+                </div>
+                <div class="div-err-reg">
+                  <div class="errorRegister">User already registered, email wrong or password shorter than seven characters</div>
+                </div>
+                <button class="btnSign" type="submit" id="register">Sign Up</button>
+              </div>
+            </form>
+
+          <form onsubmit="" method="get" class="log" id="login">
+            <div class="inputs">
+              <input type="email" id="log-email" placeholder="Email" class="input-email" required />
+
+            </div>
+
+            <div class="inputs">
+              <input type="password" id="log-password" class="input-pass" placeholder="Password" required/>
+            </div>
+
+            <div id="errorLogIn"></div>
+            <div class="prova-btn">
+              <div class="div-err" id="div-err">
+                <div id="errorLogin" class="errorLogin">Invalid email or password</div>
+              </div>
+            <button class="btnSign" type="submit" id="loginbtn">Login</button>
+            </div>
+          </form>
+        </div>
+        </div>
+      </section>
+
+
 
 
   <script type="module" src="./script/login.js"></script>
